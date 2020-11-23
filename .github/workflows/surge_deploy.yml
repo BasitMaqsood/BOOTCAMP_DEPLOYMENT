@@ -32,4 +32,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge . /tangy-hobbies.surge.sh --token ${{secrets.SURGE_TOKEN_SECT}}
+        run: surge ./ tangy-hobbies.surge.sh --token ${{secrets.SURGE_TOKEN_SECT}}
